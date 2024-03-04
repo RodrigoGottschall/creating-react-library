@@ -24,7 +24,7 @@
     "webpack-dev-server": "^5.0.2"
   },
   "scripts": {
-    "start": "webpack serve --progress --inline --hot --port 8080",
+    "start": "webpack serve --progress --hot --port 8080",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist"
   }
 }
