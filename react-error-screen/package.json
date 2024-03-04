@@ -1,7 +1,12 @@
 {
   "name": "react-error-screen",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
